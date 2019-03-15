@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Live Audio Broadcaster</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1, shrink-to-fit=no, maximum-scale=10.0,user-scalable=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+         crossorigin="anonymous"></script>
+	<script src="audio.js"></script>
+	</head>
+	<body>
+	
+	<!-- Standard shim for WebRTC browser compatibility -->
+	<script src="adapter-latest.js"></script>
+
+	<div id="vidView">
+		<video autoplay muted playsinline poster="mic.jpg"></video>
+	</div>
+	
+	<div class="controls">
+		<div id="form" class="">
+      <input id="tokenTxt" class="base-input" type="text" value="" placeholder="Token"/>
+      <input id="streamTxt" class="base-input ml-10 mr-10" type="text" value="" placeholder="Stream Name"/>
+      <input id="viewTxt" class="base-input" type="text" value="" placeholder="Viewer Stream Name"/>
+
+		</div>
+		<div class="ml-10 mt-10">
+	    <button id="publishBtn" class="inline-b">Start Publishing</button>
+
+
+        </div>
+	
+		</div>
+		<div >
+			<a id="viewerUrl" href="" target="_blank"></a>
+		</div>
+	
+	    <button id="stopBtn"  onClick="window.location.reload()">Stop  Publishing</button>
+
+        </div>
+	</div>
+</body>
+		
+</html>

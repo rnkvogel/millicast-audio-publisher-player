@@ -1,0 +1,73 @@
+
+		body {
+		  background: #999;
+			text-align: center;
+			margin: 0px;
+			padding: 0px;
+		}
+		body, html, button, input, select, textarea {
+			font-family: Helvetica, Verdana, Arial, sans-serif;
+		}
+		#vidView {
+
+			background: #000;
+			height: 0%;
+		}
+
+      #form{ 
+      display: none;
+    }
+
+    .base-input {
+			padding: 5px;
+    	font-size: 12px;
+		}
+
+		audio {
+			object-fit: cover;
+			height: 550px;
+			display: flex;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+		video {
+			object-fit: cover;
+			height: 300px;
+			width: 100%;
+			display: flex;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+		.inline-b {
+			display: inline-block;
+		}
+		.mt-10 {
+			margin-top: 10px;
+		}
+		.ml-10 {
+			margin-left: 10px;
+		}
+		.mr-10 {
+			margin-right: 10px;
+		}
+
+		.controls {
+            padding-top: 10px;
+			display: table;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+			font-size: 15px;
+		}
+
+		#publishBtn {
+			padding: 20px;
+		}
+		#stopBtn {
+			padding: 20px;
+		}
+		
+	
