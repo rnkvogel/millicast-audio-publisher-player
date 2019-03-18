@@ -33,9 +33,9 @@ $( document ).ready(function() {
 
 //End
     // hard code it here, or enter it at runtime on the field.
-	let token = "0948f76576297fcfa5f81835695ca60637a8357ed2fd60aa63055ce007f6dd4c";
-    let streamName = "audio";
-    let viewerStreamId = "LZsuF8/audio";
+	let token = "YOUR_MILLICAST_STREAM_NAME_TOKEN";
+    let streamName = "YOUR_MILLICAST_STREAM_NAME";
+    let viewerStreamId = "LZsuF8/YOUR_MILLICAST_STREAM_NAME";
     // /info
 
 		//media stream object from local user mic and camera.	
