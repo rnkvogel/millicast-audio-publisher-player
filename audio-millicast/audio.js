@@ -33,9 +33,9 @@ $( document ).ready(function() {
 
 //End
     // hard code it here, or enter it at runtime on the field.
-	let token = "YOUR_ TOKEN";
-    let streamName = "STREAM_NAME";
-    let viewerStreamId = "LZsuF8/STREAM-NAME";
+	let token = "0948f76576297fcfa5f81835695ca60637a8357ed2fd60aa63055ce007f6dd4c";
+    let streamName = "audio";
+    let viewerStreamId = "LZsuF8/audio";
     // /info
 
 		//media stream object from local user mic and camera.	
@@ -87,7 +87,7 @@ $( document ).ready(function() {
 				//create a WebRTC offer to send to the media server
 				let offer = pc.createOffer({
 					offerToReceiveAudio: true,
-					offerToReceiveVideo: true
+					offerToReceiveVideo: false
 				}).then( desc => {
 					console.log('createOffer Success!');
 					//set local description and send offer to media server via ws.
@@ -130,7 +130,7 @@ $( document ).ready(function() {
                             //limit video bandwidth 800 Kbps
                             //sdp : data.sdp + "a=MID:video\r\nb=AS:" + $('#bitrateText').text() +"\r\n"
                             //limit audio bandwidth
-                            //sdp  : data.sdp + "a=MID:audio\r\nb=AS:"+ $('#audioText').text()  +"\r\n"
+                            // sdp  : data.sdp + "a=MID:audio\r\nb=AS:128\r\n"
 
 
 
