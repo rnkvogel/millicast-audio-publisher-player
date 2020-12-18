@@ -7,35 +7,12 @@ $( document ).ready(function() {
    };
 
 /*
-    //Adding sliders 
-         $(function () {
-          var videoBitrate = $('#bitrateText').text($(this).val());
-          $('#bitrateText').text($('#videoBitrate').val());
-          $('#videoBitrate').on('input change', function () {
-          $('#bitrateText').text($(this).val());
-         // console.log($(this).val());
-     
-          });
-          });
-
-          $(function () {
-          var audioBitrate = $('#audioText').text($(this).val());
-          $('#audioText').text($('#audioBitrate').val());
-          $('#audioBitrate').on('input change', function () {
-          $('#audioText').text($(this).val());
-          //console.log($(this).val());
-          });
-          });
-          *
-         // videoBitrate = $('#bitrateText').text();
-         //console.log(videoBitrate);
-      */ 
 
 //End
     // hard code it here, or enter it at runtime on the field.
-	let token = "YOUR_MILLICAST_STREAM_NAME_TOKEN";
+     let token = "YOUR_MILLICAST_STREAM_NAME_TOKEN";
     let streamName = "YOUR_MILLICAST_STREAM_NAME";
-    let viewerStreamId = "LZsuF8/YOUR_MILLICAST_STREAM_NAME";
+    let viewerStreamId = "ACCOUNT   //YOUR_MILLICAST_STREAM_NAME";
     // /info
 
 		//media stream object from local user mic and camera.	
