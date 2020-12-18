@@ -8,10 +8,16 @@ After you have create your account update the audio.js lines with your Token and
     // hard code it here, or enter it at runtime on the field.
 	  let token = "YOUR_ TOKEN";
     let streamName = "STREAM_NAME";
-    let viewerStreamId = "LZsuF8/STREAM-NAME";
+    let viewerStreamId = "ACCOUNT";  //ACCOUNT ID
     
     DEMO
-    https://robertdev.influxis.com/millicast/audio/
+    
+    
+    TO DO
+    Need to UPDATE for sound
+    
+    DEMO
+    Need to link to git hub
     
     
     
