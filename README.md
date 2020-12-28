@@ -15,15 +15,7 @@ After you have create your account update the audio.js lines with your Token and
     let streamName = "STREAM_NAME";
     let viewerStreamId = "ACCOUNT";  //ACCOUNT ID
     
-    DEMO
-    
-    
-    TO DO
-    Need to UPDATE for sound
-    
-    DEMO
-    Need to link to git hub
-    
+ Please use Millicast-podcaster for updated features.
     
     
     
